@@ -45,7 +45,6 @@ const signup = async (req, res) => {
   return res.status(201).json({
     sucess: true,
     message: "user created sucess",
-    response,
   });
 };
 
